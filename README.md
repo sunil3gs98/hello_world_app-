@@ -10,4 +10,3 @@ The Dockerfile contains all the necessary steps to build and run the image
 
 
 
-![Uploading Screenshot 2023-10-19 at 12.39.52 AM.png…]()
