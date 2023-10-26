@@ -9,3 +9,4 @@ WORKDIR /app
 COPY . .
 
 CMD ["python", "python_application.py"]
+
