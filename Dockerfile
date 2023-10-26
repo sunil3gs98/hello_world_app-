@@ -15,6 +15,6 @@ RUN pip install -r requirements.txt
 # Copy the application code into the container
 COPY . .
 
-EXPOSE 0.0.0.0:5000
+EXPOSE 5000
 
 CMD ["python", "python_application.py"]
