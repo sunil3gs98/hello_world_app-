@@ -4,7 +4,7 @@ FROM python:3.8
 # Set the working directory inside the container
 WORKDIR /app
 
-COPY . /app
+#COPY . /app
 
 # Copy the requirements file
 COPY requirements.txt .
@@ -13,7 +13,7 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 # Copy the application code into the container
-#COPY . .
+COPY . .
 
 EXPOSE 5000
 
